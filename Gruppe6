@@ -1,0 +1,5 @@
+import os
+
+userName = input("Write your name here: ")
+os.system("sudo adduser " + userName)
+os.system("sudo passwd " +userName)
